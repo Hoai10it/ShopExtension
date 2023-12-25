@@ -1,0 +1,228 @@
+{
+  "extName": {
+    "message": "Sale Demo",
+    "description": "Extension name."
+  },
+  "appDesc": {
+    "message": "Mua hàng quốc tế. Thanh toán bằng các phương thức nội địa. Giá cả minh bạch.",
+    "description": "Extension description."
+  },
+  "content_dutycastCart": {
+    "message": "giỏ hàng Sale Demo",
+    "description": "Sale Demo's cart on content page."
+  },
+  "content_addTo": {
+    "message": "Thêm vào",
+    "description": "Add to on content page."
+  },
+  "content_checkout": {
+    "message": "Thanh Toán",
+    "description": "Checkout on content page."
+  },
+  "content_welcome": {
+    "message": "Chào bạn!",
+    "description": "Welcome title on content page."
+  },
+  "content_welcomeMessage": {
+    "message": "Chọn món bạn thích và thêm vào giỏ Sale Demo nhé!",
+    "description": "Welcome message on content page."
+  },
+  "content_draft": {
+    "message": "Sắp ra mắt tại",
+    "description": "Draft title on content page."
+  },
+  "content_draftMessage": {
+    "message": "Sale Demo!",
+    "description": "Draft message on content page."
+  },
+  "content_proxyTip": {
+    "message": "<b>Gợi ý:</b> Bạn luôn có thể truy cập vào các trang web Mỹ dễ dàng bằng cách gạt nút trên cửa sổ tiện ích.",
+    "description": "Proxy tip on content page."
+  },
+  "content_proxyAccess": {
+    "message": "Truy cập vào",
+    "description": "Access on content page."
+  },
+  "content_proxyClose": {
+    "message": "Đóng",
+    "description": "Close on content page."
+  },
+  "content_quantityZeroTitle": {
+    "message": "👋 Bạn ơi chú ý!",
+    "description": "Warning title quantity zero"
+  },
+  "content_quantityZeroDes": {
+    "message": "Vui lòng chọn số lượng sản phẩm trước khi thêm vào giỏ.",
+    "description": "Warning description quantity zero"
+  },
+  "content_quantityMinDes": {
+    "message": "Số lượng tối thiểu",
+    "description": "Warning description Minimum order quantity"
+  },
+  "content_1688Wholesale": {
+    "message": "Vui lòng chuyển qua tab \"Whole sale\" (批发) trước khi thêm vào giỏ. Chuyển ngay!",
+    "description": "1688 Whole sale description"
+  },
+  "popup_checkout": {
+    "message": "Thanh toán",
+    "description": "Checkout on pop up."
+  },
+  "popup_orderSummary": {
+    "message": "Chi tiết đơn hàng",
+    "description": "Order summary on pop up."
+  },
+  "popup_itemFromStore": {
+    "message": "<b>$item$</b> sản phẩm từ <b>$store$</b> cửa hàng",
+    "description": "x item from x store on pop up.",
+    "placeholders": {
+      "item": {
+        "content": "$1",
+        "example": "2"
+      },
+      "store": {
+        "content": "$2",
+        "example": "2"
+      },
+      "items": {
+        "content": "$3",
+        "example": "s"
+      },
+      "stores": {
+        "content": "$4",
+        "example": "s"
+      }
+    }
+  },
+  "popup_colours": {
+    "message": "Màu sắc",
+    "description": "Colours on pop up."
+  },
+  "popup_size": {
+    "message": "Size",
+    "description": "Size on pop up."
+  },
+  "popup_productCode": {
+    "message": "Mã sản phẩm",
+    "description": "Product code on popup."
+  },
+  "popup_empty": {
+    "message": "Mua sắm bất cứ đâu. Thanh toán với <span class='blue'>Sale Demo</span>. Không trả thêm bất cứ chi phí nào khi nhận hàng!",
+    "description": "Empty slogan on popup."
+  },
+  "popup_shopFrom": {
+    "message": "Mua sắm quốc tế cùng Sale Demo",
+    "description": "Empty title on popup"
+  },
+  "popup_shopfromDescription": {
+    "message": "Truy cập vào trang web yêu thích, chọn sản phẩm<br>muốn mua và thanh toán tiện lợi với Sale Demo!",
+    "description": "Empty description on popup"
+  },
+  "popup_seeAll": {
+    "message": "Xem tất cả",
+    "description": "Empty see all on popup"
+  },
+  "popup_quatationNote": {
+    "message": "Quote later",
+    "description": "Quatation note on popup"
+  },
+  "popup_readyToCheckOut": {
+    "message": "SẢN PHẨM THANH TOÁN",
+    "description": "READY TO CHECKOUT on pop up."
+  },
+  "popup_RFQ": {
+    "message": "SẢN PHẨM CẦN BÁO GIÁ",
+    "description": "PRICE TO BE PROVIDED on pop up."
+  },
+  "popup_orderCode": {
+    "message": "Nhập mã đơn hàng",
+    "description": "Your Order ID on pop up."
+  },
+  "popup_trackButton": {
+    "message": "Kiểm tra đơn hàng",
+    "description": "Tracking on pop up."
+  },
+  "popup_remove": {
+    "message": "Xoá",
+    "description": "Remove on pop up."
+  },
+  "popup_proxy": {
+    "message": "Truy cập vào trang web Mỹ",
+    "description": "access to us store on pop up."
+  },
+  "popup_proxyText": {
+    "message": "Cho phép truy cập vào các trang web Mỹ bị giới hạn",
+    "description": "access to us store description on pop up."
+  },
+  "popup_settings": {
+    "message": "Cài đặt tiện ích",
+    "description": "Settings title on pop up."
+  },
+  "popup_settingsDescription": {
+    "message": "Tuỳ chỉnh cài đặt cho tiện ích Sale Demo",
+    "description": "Settings description on pop up."
+  },
+  "popup_priceDropNoti": {
+    "message": "Thông báo giảm giá",
+    "description": "Price Drop Notification on pop up."
+  },
+  "popup_priceDropNotiDescription": {
+    "message": "Cho phép gửi thông báo khi có sản phẩm trong giỏ hàng của bạn đang được giảm giá",
+    "description": "Price Drop Notification description on pop up."
+  },
+  "popup_environment": {
+    "message": "Môi trường",
+    "description": "Environment"
+  },
+  "popup_changeEnvironment": {
+    "message": "Thay đổi môi trường",
+    "description": "Change Environment"
+  },
+  "popup_resetSettings": {
+    "message": "Khôi phục cài đặt gốc",
+    "description": "Reset settings"
+  },
+  "popup_resetSettingsDescription": {
+    "message": "Khôi phục những cài đặt sẵn có trên tiện ích Sale Demo",
+    "description": "Reset settings"
+  },
+  "popup_resetSettingsButton": {
+    "message": "Khôi phục",
+    "description": "Reset settings button"
+  },
+  "popup_Done": {
+    "message": "Xong",
+    "description": "Done"
+  },
+  "fc_fastCheckout": {
+    "message": "Mua ngay",
+    "description": "Fast checkout"
+  },
+  "fc_fastCheckoutDescription": {
+    "message": "Nhận giá về tay ngay lập tức và thanh toán nhanh chỉ với vài cú nhấp chuột",
+    "description": "Fast Checkout description"
+  },
+  "fc_NoteAll": {
+    "message": "Giá về tay đã bao gồm thuế và phí vận chuyển",
+    "description": "Note all on popup fast checkout"
+  },
+  "fc_finalPrice": {
+    "message": "Mua ngay",
+    "description": "Final price on popup fast checkout"
+  },
+  "fc_checkout": {
+    "message": "Thanh toán nhanh!",
+    "description": "Checkout button on popup fast checkout"
+  },
+  "fc_ignore": {
+    "message": "Tắt thông báo cho những lần sau",
+    "description": "Ignore button on popup fast checkout"
+  },
+  "defautErrorTitle": {
+    "message": "Đã xảy ra lỗi",
+    "description": "Something went wrong."
+  },
+  "defautErrorMessage": {
+    "message": "Vui lòng thử lại sau",
+    "description": "Please try again later."
+  }
+}

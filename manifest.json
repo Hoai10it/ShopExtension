@@ -1,0 +1,12 @@
+{
+  "name": "DQH Shopping Assistant",
+  "version": "1.0.0",
+  "description": "Extension for buying products on all the websites of the world",
+  "manifest_version": 3,
+  "author": "DQH",
+  "action": {
+    "default_title": "Your Shopping Assistant(DQH)",
+    "default_popup": "popup.html",
+    "default_icon": "static/assets/icon.png"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "extName": {
+    "message": "Sale Demo",
+    "description": "Extension name."
+  },
+  "appDesc": {
+    "message": "Shop global. Pay local. No hidden fees.",
+    "description": "Extension description."
+  },
+  "content_dutycastCart": {
+    "message": "Sale Demo cart",
+    "description": "Sale Demo's cart."
+  },
+  "content_addTo": {
+    "message": "Add to",
+    "description": "Add to on content page"
+  },
+  "content_checkout": {
+    "message": "Checkout",
+    "description": "Checkout on content page."
+  },
+  "content_welcome": {
+    "message": "Welcome to Sale Demo!",
+    "description": "Welcome title on content page."
+  },
+  "content_welcomeMessage": {
+    "message": "Choose product you love and add to Sale Demo cart!",
+    "description": "Welcome message on content page."
+  },
+  "content_draft": {
+    "message": "Coming soon",
+    "description": "Draft title on content page."
+  },
+  "content_draftMessage": {
+    "message": "to Sale Demo!",
+    "description": "Draft message on content page."
+  },
+  "content_proxyTip": {
+    "message": "<b>Tips:</b> You can always access region-restricted US stores  easily by turn on the toggle in the extension window.",
+    "description": "Proxy tip on content page."
+  },
+  "content_proxyAccess": {
+    "message": "Access to",
+    "description": "Access on content page."
+  },
+  "content_proxyClose": {
+    "message": "Close",
+    "description": "Close on content page."
+  },
+  "content_quantityZeroTitle": {
+    "message": "👋 Notice!",
+    "description": "Warning title quantity zero"
+  },
+  "content_quantityZeroDes": {
+    "message": "Please choose the quantity before adding the item to cart.",
+    "description": "Warning description quantity zero"
+  },
+  "content_quantityMinDes": {
+    "message": "Minimum order quantity is",
+    "description": "Warning description Minimum order quantity"
+  },
+  "content_1688Wholesale": {
+    "message": "Please switch to \"Whole sale\" (批发) tab before adding the item to cart. Switch now!",
+    "description": "1688 Whole sale description"
+  },
+  "popup_checkout": {
+    "message": "Checkout",
+    "description": "Checkout on pop up."
+  },
+  "popup_orderSummary": {
+    "message": "Order summary",
+    "description": "Order summary on pop up."
+  },
+  "popup_itemFromStore": {
+    "message": "(<b>$item$</b> item$items$ from <b>$store$</b> store$stores$)",
+    "description": "x item from x store on pop up.",
+    "placeholders": {
+      "item": {
+        "content": "$1",
+        "example": "2"
+      },
+      "store": {
+        "content": "$2",
+        "example": "2"
+      },
+      "items": {
+        "content": "$3",
+        "example": "s"
+      },
+      "stores": {
+        "content": "$4",
+        "example": "s"
+      }
+    }
+  },
+  "popup_colours": {
+    "message": "Colours",
+    "description": "Colours on pop up."
+  },
+  "popup_size": {
+    "message": "Size",
+    "description": "Size on pop up."
+  },
+  "popup_productCode": {
+    "message": "Product code",
+    "description": "Product code on pop up."
+  },
+  "popup_empty": {
+    "message": "Shop anywhere. Checkout with <span class='blue'>Sale Demo</span>, no hidden fees, no surprise charges!",
+    "description": "Empty slogan on pop up."
+  },
+  "popup_shopFrom": {
+    "message": "Shop from multiple stores",
+    "description": "Empty title on pop up"
+  },
+  "popup_shopfromDescription": {
+    "message": "Go to your favorite websites, choose the product<br>you love and checkout with us!",
+    "description": "Empty description on pop up"
+  },
+  "popup_seeAll": {
+    "message": "See all",
+    "description": "Empty see all on pop up"
+  },
+  "popup_quatationNote": {
+    "message": "Quote later",
+    "description": "Quatation note on pop up"
+  },
+  "popup_readyToCheckOut": {
+    "message": "READY TO CHECKOUT",
+    "description": "READY TO CHECKOUT on pop up."
+  },
+  "popup_RFQ": {
+    "message": "PRICE TO BE PROVIDED",
+    "description": "PRICE TO BE PROVIDED on pop up."
+  },
+  "popup_orderCode": {
+    "message": "Your Order ID",
+    "description": "Your Order ID on pop up."
+  },
+  "popup_trackButton": {
+    "message": "Track your order",
+    "description": "Tracking on pop up."
+  },
+  "popup_remove": {
+    "message": "Remove",
+    "description": "Remove on pop up."
+  },
+  "popup_proxy": {
+    "message": "Access to us store",
+    "description": "access to us store on pop up."
+  },
+  "popup_proxyText": {
+    "message": "Access all the region-restricted US stores outside of your country",
+    "description": "access to us store description on pop up."
+  },
+  "popup_settings": {
+    "message": "Settings",
+    "description": "Settings title on pop up."
+  },
+  "popup_settingsDescription": {
+    "message": "Customize your extension settings",
+    "description": "Settings description on pop up."
+  },
+  "popup_priceDropNoti": {
+    "message": "Price Drop Notification",
+    "description": "Price Drop Notification on pop up."
+  },
+  "popup_priceDropNotiDescription": {
+    "message": "Notify me when the prices of items in my cart drop",
+    "description": "Price Drop Notification description on pop up."
+  },
+  "popup_environment": {
+    "message": "Environment",
+    "description": "Environment"
+  },
+  "popup_changeEnvironment": {
+    "message": "Change environment",
+    "description": "Change Environment"
+  },
+  "popup_resetSettings": {
+    "message": "Reset settings",
+    "description": "Reset settings"
+  },
+  "popup_resetSettingsDescription": {
+    "message": "Reset Extension settings to default",
+    "description": "Reset settings"
+  },
+  "popup_resetSettingsButton": {
+    "message": "Reset",
+    "description": "Reset settings button"
+  },
+  "popup_Done": {
+    "message": "Done",
+    "description": "Done"
+  },
+  "fc_fastCheckout": {
+    "message": "Buy now",
+    "description": "Fast checkout"
+  },
+  "fc_fastCheckoutDescription": {
+    "message": "Get final price immediately and checkout in a few clicks",
+    "description": "Fast Checkout description"
+  },
+  "fc_NoteAll": {
+    "message": "Shipping fee and tax already included",
+    "description": "Note all on popup fast checkout"
+  },
+  "fc_finalPrice": {
+    "message": "Buy now",
+    "description": "Final price on popup fast checkout"
+  },
+  "fc_checkout": {
+    "message": "Fast checkout!",
+    "description": "Checkout button on popup fast checkout"
+  },
+  "fc_ignore": {
+    "message": "Don't show this again",
+    "description": "Ignore button on popup fast checkout"
+  },
+  "defautErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Something went wrong."
+  },
+  "defautErrorMessage": {
+    "message": "Please try again later",
+    "description": "Please try again later."
+  }
+}
