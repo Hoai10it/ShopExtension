@@ -1,12 +1,50 @@
 {
   "name": "DQH Shopping Assistant",
-  "version": "1.0.0",
-  "description": "Extension for buying products on all the websites of the world",
+  "description": "Extension to set up a proxy for specific websites",
   "manifest_version": 3,
-  "author": "DQH",
+  "default_locale": "en",
+  "version": "1.0",
+  "background": {
+    "service_worker": "static/js/background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "cookies",
+    "proxy"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "static/js/jquery-3.7.1.min.js",
+        "static/js/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "static/assets/icon.png"
+  },
   "action": {
-    "default_title": "Your Shopping Assistant(DQH)",
-    "default_popup": "popup.html",
-    "default_icon": "static/assets/icon.png"
-  }
+    "default_title": "Click to open shop",
+    "default_icon": "static/assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "static/assets/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
 }
