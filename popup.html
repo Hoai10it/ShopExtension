@@ -8,7 +8,8 @@
     <style>
         @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700);
     </style>
-    <script defer="defer" src="static/js/popup.bundle.js"></script>
+    <script defer="defer" src="static/js/jquery-3.7.1.min.js"></script>
+    <script defer="defer" src="static/js/popup.js"></script>
     <link rel="stylesheet" href="static/css/popup.css">
     
 </head>
@@ -29,7 +30,31 @@
                 </div>
             </div>
             <div class="dc-settings">
-                <div class="dc-head-box"><img class="dc-logo" alt="logo" src="static/assets/logo.svg">
+                <div class="dc-content">
+                    <div class="dc-title">Settings</div>
+                    <div class="dc-description">Customize your extension settings</div>
+                    <div class="sections">
+                        <div class="section dc-proxy-box controlled_by_other_extensions">
+                            <div class="dc-toggle-button flex-box off disabled">
+                                <div class="toggle-title"><img class="icon" alt="lock"
+                                        src="static/assets/lock.svg">Access to us store<div class="toggle-description">
+                                        Access all the region-restricted US stores outside of your country</div>
+                                </div>
+                                <div class="toggle-status">
+                                    <div class="status toggle-on"><img alt="on" src="static/assets/toggle_on.svg"></div>
+                                    <div class="status toggle-off"><img alt="on" src="static/assets/toggle_off.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section fast-checkout">
+                            <div class="dc-toggle-button flex-box on">
+                                <button id="toggleProxy">Toggle Proxy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="dc-head-box"><img class="dc-logo" alt="logo" src="static/assets/logo.svg">
                     <div class="menu-box">
                         <div class="item p-mainPage"><img alt="setting" src="static/assets/bag.svg">
                             <div class="badge"></div>
@@ -90,7 +115,7 @@
                         <div class="dc-right-box"><button class="dc-track"><span>Track your order</span><img
                                     alt="search" src="static/assets/search.svg"></button></div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

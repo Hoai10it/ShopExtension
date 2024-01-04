@@ -8,14 +8,15 @@
     "service_worker": "static/js/background.js"
   },
   "permissions": [
+    "activeTab",
+    "webNavigation",
     "storage",
     "tabs",
     "cookies",
     "proxy"
   ],
   "host_permissions": [
-    "http://*/*",
-    "https://*/*"
+    "<all_urls>"
   ],
   "content_scripts": [
     {
@@ -24,7 +25,7 @@
       ],
       "js": [
         "static/js/jquery-3.7.1.min.js",
-        "static/js/content.js"
+        "static/js/popup.js"
       ],
       "run_at": "document_idle"
     }
